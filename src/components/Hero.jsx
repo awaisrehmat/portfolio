@@ -32,7 +32,14 @@ const Hero = () => {
       fontSize: "2.5rem",
     },
   }));
+  const recipientEmail = "awaisali.rehmatali@gmail.com";
+  const handleClick = () => {
+    // Gmail compose URL with recipient, subject, and body
+    const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipientEmail}&su=Your%20Subject&body=Your%20Email%20Body`;
 
+    // Open Gmail compose window in a new tab
+    window.open(gmailComposeUrl);
+  };
   return (
     <Box
       sx={{
@@ -76,7 +83,7 @@ const Hero = () => {
           src={reactImg}
         />
 
-        <CustomButton>Contact Me</CustomButton>
+        <CustomButton onClick={handleClick}>Contact Me</CustomButton>
       </Box>
     </Box>
   );
