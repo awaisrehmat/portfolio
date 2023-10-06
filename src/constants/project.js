@@ -4,31 +4,31 @@ import restcountriesImg from "../media/restcountries.png";
 
 export const projects = [
   {
-    title: "LinkedIn Clone",
+    title: "EduGen(FYP)",
     description:
-      "This web application recreates the design of the social media platform Linkedin.",
+      "This is mobile/web base application to generate AI base Paper generation and custom paper generation",
     image: linkedincloneImg,
-    tags: ["Firebase", "JavaScript", "React", "Redux"],
+    tags: ["React", "Express", "MongoDB", "Node"],
     source: "",
     liveVersion: "",
     id: 0,
   },
   {
-    title: "E-Commerce Website",
+    title: "Expense Tracking System",
     description:
-      "A fully responsive e-commerce website, built with React, Redux Toolkit & React Router.",
+      "A fully responsive website, built with Bootstrap, Node, Express",
     image: ecommerceImg,
-    tags: ["React", "JavaScript", "Redux Toolkit", "CSS"],
+    tags: ["HTML", "CSS", "Bootstrap", "Node"],
     source: "",
     liveVersion: "",
     id: 1,
   },
   {
-    title: "REST Countries API Project",
+    title: "Mortage Calculator",
     description:
-      "A fun challenge from Frontend Mentor using the REST Countries API.",
+      "Resposive Web App, created for claculate Mortage Capacity or borrow capacity",
     image: restcountriesImg,
-    tags: ["React", "JavaScript", "CSS"],
+    tags: ["React", "MUI", "Tailwind CSS"],
     source: "",
     liveVersion: "",
     id: 2,

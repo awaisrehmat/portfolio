@@ -1,7 +1,7 @@
 import { Box, Button, styled, Typography } from "@mui/material";
 import React from "react";
 import { Link } from "react-scroll";
-import reactImg from "../media/react_svg.svg";
+import reactImg from "../media/hi.png";
 
 const Hero = () => {
   const CustomButton = styled(Button)(({ theme }) => ({
@@ -72,16 +72,18 @@ const Hero = () => {
           gap: "1rem",
         }}
       >
+  
         <Box
           component="img"
           sx={{
-            height: 150,
-            width: 150,
+            height: 100,
+            width: 250,
             mt: 4,
             mb: 4,
           }}
           src={reactImg}
         />
+      
 
         <CustomButton onClick={handleClick}>Contact Me</CustomButton>
       </Box>

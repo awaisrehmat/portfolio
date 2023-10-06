@@ -93,21 +93,25 @@ const Footer = () => {
         <Box sx={{ display: "flex", alignItems: "center", cursor: "pointer" }}>
           <GitHubIcon sx={{ mr: 2, color: "white" }} />
           <Typography variant="body2" sx={{ color: "white", my: 1 }}>
-            GitHub
+            <a href="https://github.com/awaisrehmat">GitHub</a>
           </Typography>
         </Box>
 
         <Box sx={{ display: "flex", alignItems: "center", cursor: "pointer" }}>
           <EmailIcon sx={{ mr: 2, color: "white" }} />
           <Typography variant="body2" sx={{ color: "white", my: 1 }}>
-            Email
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=awaisali.rehmatali@gmail.com&su=Your%20Subject&body=Your%20Email%20Body">
+              Gmail
+            </a>
           </Typography>
         </Box>
 
         <Box sx={{ display: "flex", alignItems: "center", cursor: "pointer" }}>
           <LinkedInIcon sx={{ mr: 2, color: "white" }} />
           <Typography variant="body2" sx={{ color: "white", my: 1 }}>
-            LinkedIn
+            <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BpDycx1yqSqi9Vz3WmWDFmA%3D%3D">
+              LinkedIn
+            </a>
           </Typography>
         </Box>
       </Box>

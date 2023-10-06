@@ -1,4 +1,4 @@
-import { Box, Button, Typography, styled } from "@mui/material";
+import { Box, Button, Card, Typography, styled } from "@mui/material";
 import React from "react";
 import Testimonial from "./Testimonial";
 
@@ -56,7 +56,7 @@ const About = () => {
           variant="h4"
           style={{ color: "white", textAlign: "center" }}
         >
-          What people say about my work!
+          Past Experience
         </Typography>
         <div
           style={{
@@ -70,8 +70,8 @@ const About = () => {
       </CustomTitleBox>
 
       <CustomBox sx={{ my: 7 }}>
-        <Testimonial />
-        <Testimonial />
+        {/* <Testimonial /> */}
+        {/* <Testimonial /> */}
         <Testimonial />
       </CustomBox>
 
@@ -90,17 +90,44 @@ const About = () => {
         variant="h4"
         sx={{ color: "white", mt: 12, textAlign: "center" }}
       >
-        Interested in Working Together?
+        Download Resume
       </Typography>
+      {/* <Button
+        href={require("../media/Awais Ali_MERN Stack Developer.pdf")}
+        download="Awais Ali_MERN Stack Developer  "
+        size="small"
+      >
+        Download File
+      </Button> */}
+      <br></br>
+      <br></br>
+
+      <Card elevation={5} sx={{ border: 0 }}>
+        <iframe
+          src="https://drive.google.com/file/d/1RJh_jVeCd7ICX42M0-nXdZpduDXRmmXO/preview"
+          frameBorder="0"
+          scrolling="auto"
+          height="400"
+          width="100%"
+          style={{
+            display: "block",
+          }}
+        ></iframe>
+      </Card>
+
       <CustomButton
         variant="outlined"
         sx={{
           mx: "auto",
           mt: 3,
           mb: 8,
+          textAlign:'center'
         }}
+        href={require("../media/Awais Ali_MERN Stack Developer.pdf")}
+        download="Awais Ali_MERN Stack Developer  "
+        size="small"
       >
-        Get in Touch
+        Download Resume
       </CustomButton>
     </Box>
   );

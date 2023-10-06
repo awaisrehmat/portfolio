@@ -35,7 +35,7 @@ const Project = ({ title, description, tags, img }) => {
             mb: 3,
           }}
         >
-          <Button
+          {/* <Button
             size="small"
             style={{ backgroundColor: "rgba(0,199,255,255)" }}
             variant="contained"
@@ -48,7 +48,7 @@ const Project = ({ title, description, tags, img }) => {
             variant="contained"
           >
             Live Version
-          </Button>
+          </Button> */}
         </Box>
 
         <Box

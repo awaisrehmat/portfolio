@@ -34,7 +34,17 @@ const Navbar = () => {
   }));
 
   return (
-    <Box sx={{ flexGrow: 1, px: 5, py: 2, maxWidth: "1200px", mx: "auto" }}>
+    <Box
+      sx={{
+        flexGrow: 1,
+        px: 5,
+        py: 2,
+        maxWidth: "1200px",
+        mx: "auto",
+        // position: "sticky",
+        // top: 0,
+      }}
+    >
       <AppBar
         position="static"
         style={{ background: "transparent", boxShadow: "none" }}
@@ -53,8 +63,8 @@ const Navbar = () => {
               sx={{ maxHeight: "45px", maxWidth: "45px", objectFit: "cover" }}
               src={navIcon}
             />
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              My Portfolio
+            <Typography variant="h4" component="div" sx={{ flexGrow: 1, fontFamily:'fantasy', cursor:'pointer' }}>
+              Awais Ali
             </Typography>
           </Box>
 

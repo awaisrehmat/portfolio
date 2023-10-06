@@ -16,8 +16,9 @@ export const icons = [
   },
   {
     id: 3,
-    name: "SASS",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+    name: "React Native",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  
   },
   {
     id: 4,
@@ -26,8 +27,8 @@ export const icons = [
   },
   {
     id: 5,
-    name: "TypeScript",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    name: "MongoDB",
+    src: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
   },
   {
     id: 6,
@@ -39,4 +40,5 @@ export const icons = [
     name: "Git",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
   },
+ 
 ];
