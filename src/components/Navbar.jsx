@@ -58,11 +58,11 @@ const Navbar = () => {
               gap: "1rem",
             }}
           >
-            <Box
+            {/* <Box
               component="img"
               sx={{ maxHeight: "45px", maxWidth: "45px", objectFit: "cover" }}
               src={navIcon}
-            />
+            /> */}
             <Typography variant="h4" component="div" sx={{ flexGrow: 1, fontFamily:'fantasy', cursor:'pointer' }}>
               Awais Ali
             </Typography>
