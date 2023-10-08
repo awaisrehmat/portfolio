@@ -73,7 +73,7 @@ const Navbar = () => {
               Home
             </Link>
             <Link to="experience" className="link" smooth>
-              Experience
+              Projects
             </Link>
             <Link to="about" className="link" smooth>
               About
