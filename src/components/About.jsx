@@ -123,8 +123,8 @@ const About = () => {
           mb: 8,
           textAlign:'center'
         }}
-        href={require("../media/Awais Ali_MERN Stack Developer.pdf")}
-        download="Awais Ali_MERN Stack Developer  "
+        href={require("../media/Awais Ali_React Developer.pdf")}
+        download="Awais Ali_React Developer  "
         size="small"
       >
         Download Resume
