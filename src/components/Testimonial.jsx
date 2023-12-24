@@ -25,7 +25,7 @@ const Testimonial = () => {
       </Typography>
       <Typography variant="body2">
         <span style={{ color: "#33C7FF", fontWeight: "bold" }}>
-          React Developer(Jun 21- Aug 29)
+          React Developer(Jun 22- Present)
         </span>
         <span style={{ color: "#7B89A8" }}> -Quantux Org, Lahore </span>
       </Typography>
