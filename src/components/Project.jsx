@@ -11,7 +11,7 @@ import Chip from "@mui/material/Chip";
 import { Box } from "@mui/system";
 import React from "react";
 
-const Project = ({ title, description, tags, img }) => {
+const Project = ({ title, description, tags, img, liveVersion }) => {
   return (
     <Card sx={{ maxWidth: 375, margin: "1rem" }}>
       <CardActionArea>
@@ -41,14 +41,17 @@ const Project = ({ title, description, tags, img }) => {
             variant="contained"
           >
             Source Code
-          </Button>
-          <Button
-            size="small"
-            style={{ backgroundColor: "rgba(0,199,255,255)" }}
-            variant="contained"
-          >
-            Live Version
           </Button> */}
+          <a href={liveVersion} target="_blank">
+            {" "}
+            <Button
+              size="small"
+              style={{ backgroundColor: "rgba(0,199,255,255)" }}
+              variant="contained"
+            >
+              Live Version
+            </Button>
+          </a>
         </Box>
 
         <Box

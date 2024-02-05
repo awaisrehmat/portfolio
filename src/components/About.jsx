@@ -104,7 +104,8 @@ const About = () => {
 
       <Card elevation={5} sx={{ border: 0 }}>
         <iframe
-          src="https://drive.google.com/file/d/1G9UvCDyGPNT6wLX-jHoNqE64ydgm-Kkq/preview"
+          // src="https://drive.google.com/file/d/1G9UvCDyGPNT6wLX-jHoNqE64ydgm-Kkq/preview"
+          src="https://drive.google.com/file/d/1ipvUtbu3aVrgJN1IGbPc6qnd2s5sQkqD/preview"
           frameBorder="0"
           scrolling="auto"
           height="400"
