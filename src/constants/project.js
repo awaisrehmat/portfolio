@@ -23,7 +23,7 @@ export const projects = [
     description:
       "Specializing in precise material estimation for roofing, gutters, siding, paint, and concrete projects, MAT comprehensive service prioritizes accurate calculations. Recognizing the significance of precision in resource allocation and cost-effectiveness, our expertise is dedicated to ensuring detailed and reliable material estimates. (LIVE)",
     image: MAT,
-    tags: ["React", "MUI", "Tailwind CSS", "Node", "Express", "MongoDB", ],
+    tags: ["React", "MUI", "Tailwind CSS", "Node", "Express", "MongoDB" ],
     source: "",
     liveVersion: "https://www.matestimates.com/",
     id: 1,
